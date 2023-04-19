@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiamondDent</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="text-center">
+                <img class="rounded" src="./assets/logo.png" />
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <h1>Login <span class="badge bg-secondary"></span></h1>
+        </div>
+
+        <div class="container text-center">
+            <h6>Sign In To Your Account <span class="badge bg-secondary"></span></h6>
+        </div>
+        
+        <div class="container text-center">
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
+        </div>
+        
+        <div class="col">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Forgot your password?
+                </ol>
+                </a>
+                </li>
+        </div>
+
+        <!-- Button trigger modal -->
+        <div class="container text-center">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Sign In
+        </button>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Success login</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Nice to see you again...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+                        <button type="button" class="btn btn-primary">Continue</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <a href="#">
+                Don't have an account?
+            </a>
+        </div>
+
+        
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"> 
+        </script>
+</body>
+
+</html>
